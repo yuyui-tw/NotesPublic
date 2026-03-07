@@ -9,3 +9,21 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
+# 忽略 Obsidian 的系統設定（非常重要！）
+.obsidian/
+.trash/
+.space/
+.makemd/
+.tmp.drivedownload/
+.tmp.driveupload/
+
+
+# 忽略同步工具產生的暫存檔
+.sync/
+*.tmp
+
+# (選填) 如果你有不想公開的私人資料夾，也加進去
+Capture Inbox/
+AI_Projects/
+Template/
+Tags/
