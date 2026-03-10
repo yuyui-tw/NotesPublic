@@ -22,6 +22,8 @@ export const defaultContentPageLayout: PageLayout = {
       condition: (page) => page.fileData.slug !== "index",
     }),
     Component.ArticleTitle(),
+    // 當前文章標籤
+    Component.TagList(),
     Component.ContentMeta(),
     // 移植最近更新到首頁正文上方
     Component.ConditionalRender({
@@ -46,8 +48,8 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    // 移除 Explorer，改為標籤目錄
-    Component.DesktopOnly(Component.TagList()),
+    // 左側全局標籤列表（桌機才顯示）
+    Component.DesktopOnly(Component.GlobalTagList()),
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
@@ -71,7 +73,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.TagList(),
+    Component.GlobalTagList(),
   ],
   right: [],
 }
