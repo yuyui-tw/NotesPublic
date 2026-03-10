@@ -23,7 +23,15 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.ArticleTitle(),
     Component.ContentMeta(),
-    Component.RecentNotes({ title: "Recent writing" })
+    // 移植最近更新到首頁正文上方
+    Component.ConditionalRender({
+      component: Component.RecentNotes({ 
+        title: "最近更新", 
+        limit: 5,
+        linkToMore: "tags/" 
+      }),
+      condition: (page) => page.fileData.slug === "index",
+    }),
   ],
   left: [
     Component.PageTitle(),
@@ -38,13 +46,13 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
-    Component.TagList(),
+    // 移除 Explorer，改為標籤目錄
+    Component.DesktopOnly(Component.TagList()),
   ],
   right: [
-    Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
+    Component.Graph(),
+    Component.Backlinks(), // 反向連結在右側
   ],
 }
 
@@ -63,7 +71,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.TagList(),
   ],
   right: [],
 }
