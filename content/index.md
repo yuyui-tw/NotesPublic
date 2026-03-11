@@ -2,13 +2,5 @@
 title: YueRan
 layout: layout
 ---
-
-# Welcome to my, world ~~~
-
-對背景優渥的人感到惱火，只不過是無知罷了。
-有些人對環境的優渥視若無睹，認為自己的成功完全來自實力。
-有些人沒有經歷過逆境，卻對其中的苦澀不懂裝懂。
-還有人不明白身處環境的價值，將其全部捨棄。
-像這樣無知、愚蠢的人，只會讓人火大。
-
-當命運將你置於岔路時，大膽的做出選擇吧，不要懼怕後悔。
+![PhotoStickers](PhotoStickers.png)
+Brainy is the new sexy. 
