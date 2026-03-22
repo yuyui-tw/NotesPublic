@@ -11,7 +11,7 @@ aliases: ["自然對數", "Natural logarithm"]
 
 # 核心概念 (Core Concepts)
 - **歐拉數 (Euler's Number), $e$:** 一個重要的無理數，其近似值為 2.718。它有兩種常見的極限定義：
-  1. $e = \lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n$
+  1. $e = \lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n=\lim_{ t \to 0 }(1+t)^{1/t}$
   2. $e = \sum_{n=0}^{\infty} \frac{1}{n!} = \frac{1}{0!} + \frac{1}{1!} + \frac{1}{2!} + \dots$
 - **反函數關係 (Inverse Relationship):**
   $$ y = \ln x \iff x = e^y $$
