@@ -1,6 +1,8 @@
 ---
 title: YueRan
 layout: layout
+sticker: lucide//github
+banner: content/Database/Picture/DaHeiTa.jpeg
 ---
 ![PhotoStickers](PhotoStickers.png)
 *Brainy is the new sexy.* 
