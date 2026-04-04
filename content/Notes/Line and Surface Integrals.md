@@ -17,7 +17,7 @@ annotation:
 
 # 核心概念
 
-### 1. 線積分 (Line Integral)
+### 1. [[線積分]] (Line Integral)
 線積分是在一條**曲線 $C$** 上對一個場（純量或向量）進行的積分。
 
 - **純量線積分 $\int_C f\,ds$**
