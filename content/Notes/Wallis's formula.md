@@ -50,12 +50,12 @@ $$ I_n = \frac{n-1}{n} I_{n-2} $$
 3.  代入公式後，邊界項 $[uv]_0^{\frac{\pi}{2}} = [-\sin^{n-1} x \cos x]_0^{\frac{\pi}{2}}$ 等於 $0$ (對於 $n \ge 1$)。積分部分變為：
     $$ I_n = -\int_0^{\frac{\pi}{2}} (- \cos x)(n-1)\sin^{n-2} x \cos x \, dx = (n-1) \int_0^{\frac{\pi}{2}} \sin^{n-2} x \cos^2 x \, dx $$
 4.  使用三角恆等式 $\cos^2 x = 1 - \sin^2 x$ 進行替換：
-    $$ I_n = (n-1) \int_0^{\frac{\pi}{2}} \sin^{n-2} x (1 - \sin^2 x) \, dx $$
-    $$ I_n = (n-1) \left( \int_0^{\frac{\pi}{2}} \sin^{n-2} x \, dx - \int_0^{\frac{\pi}{2}} \sin^n x \, dx \right) $$
-    $$ I_n = (n-1) (I_{n-2} - I_n) $$
-    
+$$ I_n = (n-1) \int_0^{\frac{\pi}{2}} \sin^{n-2} x (1 - \sin^2 x) \, dx $$
+$$ I_n = (n-1) \left( \int_0^{\frac{\pi}{2}} \sin^{n-2} x \, dx - \int_0^{\frac{\pi}{2}} \sin^n x \, dx \right) $$
+$$ I_n = (n-1) (I_{n-2} - I_n) $$
+
 5.  重新整理此等式，即可得到遞迴關係：
-    $$ n I_n = (n-1)I_{n-2} \implies I_n = \frac{n-1}{n} I_{n-2} $$
+$$ n I_n = (n-1)I_{n-2} \implies I_n = \frac{n-1}{n} I_{n-2} $$
 這個遞迴關係是推導出圓周率無限乘積形式的基礎。透過分析 $I_n$ 和 $I_{n-1}$ 在 $n 	o \infty$ 時的比值，並結合夾擠定理 (Squeeze Theorem) 和廣義華里士積分的行為，最終可以導出華里士公式的無限乘積形式。
 
 ## 4. 應用與脈絡 (Application & Context)
