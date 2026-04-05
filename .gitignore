@@ -27,3 +27,8 @@ Capture Inbox/
 AI_Projects/
 Template/
 Tags/
+
+
+
+# Ignore Smart Environment folder
+.smart-env

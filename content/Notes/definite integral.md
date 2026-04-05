@@ -17,6 +17,8 @@ related: "[[Fundamental Theorem of Calculus]]"
 $$ A = \int_a^b [f(x) - g(x)] \,dx $$
 - **對 y 軸積分:** 如果將 x 視為 y 的函數 $x=f(y)$，也可以對 y 軸進行積分來計算面積。
 
+>遇到絕對值、高斯函數、條件函數，皆須找出分段點，再分段積分。
+
 ## 體積：切片法 (Volume: The Slicing Method)
 如果一個立體在 $x$ 軸上從 $a$ 延伸到 $b$，且在 $x$ 點的截面積為 $A(x)$，則此立體的體積為：
 $$ V = \int_a^b A(x) \,dx $$
@@ -53,15 +55,3 @@ $$ V = \int_a^b A(x) \,dx $$
 - **偶函數 (Even Function, $f(-x)=f(x)$):** 若 $f$ 為偶函數，則 $\int_{-a}^a f(x) \,dx = 2 \int_0^a f(x) \,dx$。
 - **奇函數 (Odd Function, $f(-x)=-f(x)$):** 若 $f$ 為奇函數，則 $\int_{-a}^a f(x) \,dx = 0$。
 - 如果計算面積可視為兩倍(對稱)
-
-# 範例 (Examples)
-**計算 $y=x$ 和 $y=x^2$ 在第一象限所圍成的面積。**
-1.  **找出交點:**
-    $x = x^2 \implies x^2 - x = 0 \implies x(x-1) = 0$
-    交點為 $x=0$ 和 $x=1$。
-2.  **確定上下關係:**
-    在區間 $[0, 1]$ 上，$x \ge x^2$。所以 $f(x)=x$，$g(x)=x^2$。
-3.  **設立並計算積分:**
-    $$ A = \int_0^1 (x - x^2) \,dx = \left[ \frac{1}{2}x^2 - \frac{1}{3}x^3 \right]_0^1 $$
-    $$ = \left( \frac{1}{2}(1)^2 - \frac{1}{3}(1)^3 \right) - (0) = \frac{1}{2} - \frac{1}{3} = \frac{1}{6} $$
-面積為 $1/6$。
