@@ -51,8 +51,7 @@ $$ I_n = \frac{n-1}{n} I_{n-2} $$
     $$ I_n = -\int_0^{\frac{\pi}{2}} (- \cos x)(n-1)\sin^{n-2} x \cos x \, dx = (n-1) \int_0^{\frac{\pi}{2}} \sin^{n-2} x \cos^2 x \, dx $$
 4.  使用三角恆等式 $\cos^2 x = 1 - \sin^2 x$ 進行替換：
     $$ I_n = (n-1) \int_0^{\frac{\pi}{2}} \sin^{n-2} x (1 - \sin^2 x) \, dx $$
-    $$ I_n = (n-1) \left( \int_0^{\frac{\pi}{2}} \sin^{n-2} x \, dx - \int_0^{\frac{\pi}{2}} \sin^n x \, dx 
-\right) $$
+    $$ I_n = (n-1) \left( \int_0^{\frac{\pi}{2}} \sin^{n-2} x \, dx - \int_0^{\frac{\pi}{2}} \sin^n x \, dx \right) $$
     $$ I_n = (n-1) (I_{n-2} - I_n) $$
     
 5.  重新整理此等式，即可得到遞迴關係：
