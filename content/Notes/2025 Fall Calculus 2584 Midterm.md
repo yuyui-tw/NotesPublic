@@ -1,5 +1,6 @@
 ---
-tags: quizreview
+tags:
+  - QuizReview
 ---
 START
 9Qs
