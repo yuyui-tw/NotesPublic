@@ -2,6 +2,7 @@
 aliases:
   - 三角換元法
   - Trigonometric Substitution
+  - 三角代換法
 tags:
   - Math
 up: "[[Integral]]"

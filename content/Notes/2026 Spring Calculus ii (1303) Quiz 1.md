@@ -2,6 +2,9 @@
 tags:
   - QuizReview
 related:
+  - "[[Trigonometric Substitution]]"
+  - "[[正項級數]]"
+  - "[[Improper Integrals|瑕積分]]"
 ---
 # 2026 Spring Calculus II (1303) Quiz 1 錯題檢討
 
