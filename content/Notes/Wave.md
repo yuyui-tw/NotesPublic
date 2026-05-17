@@ -33,7 +33,7 @@ related:
 - **頻率 (Frequency, f)**: $f = 1/T$。
 - **波速 (Wave Speed, v)**: $v = f\lambda$，由介質性質決定。
 - **角頻率 (Angular Frequency, $\omega$)**: $\omega = 2\pi f$。
-- **波數 (Wave Number, k)**: $k = 2\pi/\lambda$。
+- **波數 (Wave Number, k)**: $k = 2\pi/\lambda$，表示單位距離內波形重複（或振盪）的次數。
 
 ---
 

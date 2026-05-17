@@ -75,7 +75,7 @@ $dE/dt = 0$ 證明了在理想SHM中，總機械能是守恆的。將 $x(t)$ 和
       $$ x_p(t) = A(\omega_d) \cos(\omega_d t - \delta) $$
       - **穩態振幅 $A( \omega_d)$**: 振幅大小依賴於驅動頻率 $\omega_d$。
         $$ A(\omega_d) = \frac{F_0/m}{\sqrt{(\omega_d^2 - \omega^2)^2 + (b\omega_d/m)^2}} $$
-      - **相位差 $ ext{δ}$**: 穩態振盪的位移落後於驅動力的相位。
+      - **相位差 $\delta$**: 穩態振盪的位移落後於驅動力的相位。
         $$ \tan\delta = \frac{b\omega_d/m}{\omega_d^2 - \omega^2} $$
 - **共振 (Resonance)**: 當穩態振幅 $A( \omega_d)$ 達到最大值時，即為共振。這發生在驅動頻率 $\omega_d$ 約等於系統的自然頻率 $\omega$ 時。嚴格來說，振幅共振頻率為 $\omega_R = \sqrt{\omega^2 - b^2/2m^2}$，只有在阻尼 $b$ 極小時才約等於 $\omega$。
 
