@@ -26,7 +26,7 @@ annotation: 探討電阻與電感串聯之電路動態行為，包含充電與�
 當電路接通電動勢 $\mathcal{E}$ 時，電流 $i(t)$ 隨時間變化的方程式為：
 $$i(t) = \frac{\mathcal{E}}{R} \left( 1 - e^{-t/\tau} \right)$$
 - **初始狀態 ($t=0$)**：$i=0$，電感產生最大反電動勢 $\varepsilon_L = \mathcal{E}$。
-- **穩定狀態 ($t \to \infty$)**：$i = \mathcal{E}/R$，電感視為短路（理想導線）。
+- **穩定狀態 ($t \to \infty$)**：$i = \mathcal{E}/R$，電感視為短路（理想導線，==若有電阻並聯要注意電流走向==）。
 
 ### 2.2 放電過程 (Discharging/De-energizing)
 當移除電源並將電感與電阻閉合時，儲存於電感中的磁能釋放：
