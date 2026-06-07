@@ -24,7 +24,7 @@ related:
     - ==$\sin(2x) = 2 \sin x \cos x$==
 
 - $\int \sec\theta d\theta$
-計算 $\int \sec \theta \, d\theta$ 的方法與我們之前討論 $\csc x$ 的邏輯非常相似，都需要用到一個特殊的「技巧」來構造 $u$-代換（$u$-substitution）。
+計算 $\int \sec \theta \, d\theta$ 的方法與 $\csc x$ 的邏輯非常相似，都需要用到一個特殊的「技巧」來構造 $u$-代換（$u$-substitution）。
 $$\int \sec \theta \, d\theta = \int \sec \theta \cdot \frac{\sec \theta + \tan \theta}{\sec \theta + \tan \theta} \, d\theta$$
 $$\int \frac{\sec^2 \theta + \sec \theta \tan \theta}{\sec \theta + \tan \theta} \, d\theta$$
 	- $\frac{d}{d\theta}(\sec \theta) = \sec \theta \tan \theta$
