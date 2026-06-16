@@ -1,7 +1,10 @@
 ---
 tags:
   - Physics
-up: "[[2D motion]]"
+up:
+  - "[[2D motion]]"
+  - 圓周運動
+  - 向心力
 related:
 annotation:
 aliases:
