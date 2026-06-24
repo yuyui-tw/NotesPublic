@@ -33,7 +33,7 @@ $$ \vec{R}_{cm} = \frac{\sum m_i \vec{r}_i}{\sum m_i} = \frac{1}{M_{total}} \sum
 $$ \bar{x} = \frac{\sum m_i x_i}{M}, \quad \bar{y} = \frac{\sum m_i y_i}{M}, \quad \bar{z} = \frac{\sum m_i z_i}{M} $$
 
 ### 連續系統 (Continuous System)
-對於質量連續分布的物體，使用積分代替加總：
+對於質量連續分布(函數)的物體，使用積分代替加總：
 $$ \vec{r}_{cm} = \frac{1}{M} \int \vec{r} dm $$
 其中 $dm$ 是微小質量單元，可表示為 $\rho dV$（體積）、$\sigma dA$（面積）或 $\lambda ds$（長度）。
 
