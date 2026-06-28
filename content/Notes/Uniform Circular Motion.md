@@ -3,12 +3,12 @@ tags:
   - Physics
 up:
   - "[[2D motion]]"
-  - 圓周運動
-  - 向心力
 related:
 annotation:
 aliases:
   - UCM
+  - 圓周運動
+  - 向心力
 ---
 # 等速率圓周運動 (Uniform Circular Motion)
 >in inertial reference frame
