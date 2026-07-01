@@ -3,7 +3,7 @@ tags:
   - Physics
 up:
   - "[[Work]]"
-  - "[[Kinetic energy]]"
+  - "[[kinetic energy]]"
 related:
   - "[[Law of Conservation of mechanical energy]]"
 aliases:

@@ -5,8 +5,8 @@ up:
   - "[[Conservative force]]"
 related:
   - "[[Work-energy theorem]]"
-  - "[[Kinetic energy]]"
-  - "[[Potential Energy]]"
+  - "[[kinetic energy]]"
+  - "[[Potential energy]]"
 aliases:
   - 機械能守恆定律
 annotation:

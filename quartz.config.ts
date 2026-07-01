@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "yuyui-tw.github.io/NotesPublic/",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "99_Templates", ".obsidian", "90_Attachments", "LocalLlmHub", "workflows"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",

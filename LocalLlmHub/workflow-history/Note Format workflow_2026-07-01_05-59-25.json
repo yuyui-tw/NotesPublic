@@ -1,0 +1,36 @@
+{
+  "id": "exec-1782885565257-crqzj8s",
+  "workflowPath": "workflows/Note Format workflow.md",
+  "workflowName": "Note Format workflow",
+  "startTime": "2026-07-01T05:59:25.257Z",
+  "status": "error",
+  "steps": [
+    {
+      "nodeId": "check-selection",
+      "nodeType": "variable",
+      "timestamp": "2026-07-01T05:59:25.262Z",
+      "input": {
+        "name": "editor.selection",
+        "value": ""
+      },
+      "output": "",
+      "status": "success",
+      "variablesSnapshot": {}
+    },
+    {
+      "nodeId": "get-note-content",
+      "nodeType": "note-read",
+      "timestamp": "2026-07-01T05:59:25.264Z",
+      "status": "error",
+      "error": "Note not found: {{currentNote}}.md",
+      "variablesSnapshot": {
+        "editor.selection": ""
+      }
+    }
+  ],
+  "errorNodeId": "get-note-content",
+  "variablesSnapshot": {
+    "editor.selection": ""
+  },
+  "endTime": "2026-07-01T05:59:25.264Z"
+}

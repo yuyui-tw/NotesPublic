@@ -4,7 +4,7 @@ tags:
 up:
   - "[[Work]]"
 related:
-  - "[[Potential Energy]]"
+  - "[[Potential energy]]"
   - "[[Work-energy theorem]]"
 annotation:
 aliases:

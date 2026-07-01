@@ -4,7 +4,7 @@ tags:
 up:
   - "[[Force]]"
 related:
-  - "[[Potential Energy]]"
+  - "[[Potential energy]]"
   - "[[Law of Conservation of mechanical energy]]"
 annotation:
 aliases:
